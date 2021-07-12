@@ -1,0 +1,75 @@
+@import url('href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+h1, h2, h3 {
+    font-family: 'Josefin Slab', serif;
+}
+
+body{
+    font-family: 'Sacramento', cursive;
+    color: #3a3a3a;
+}
+
+h1, h2, h3 {
+    font-family: 'Josefin Slab', serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#header {
+    height:100px;
+    width: 100%;
+    background-color: #84a0a8;
+}
+
+header img {
+    height:80px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#nav {
+    float:right;
+}
+
+#menu {
+    line-height: 100px;
+    font-size: 130%;
+    letter-spacing: 6px;
+    position:relative;
+}
+
+#menu li {
+    display:inline;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+.cover {
+    height:500px;
+    background: #84a0a8 url(../images/Three_balls_wool.jpg) 
+    no-repeat center / cover;
+    }
+       
+.cover-text {
+    display:inline-block;
+    width: 40%;
+    font-size: 130%;
+    letter-spacing: 4px;
+    padding: 10px 10px 10px 10px;
+    margin-left:5%;
+    margin-top: 200px;
+    text-align: center; 
+    vertical-align: middle;
+    line-height: 60px;
+    border-radius: 25px;
+    background-color:  #948287;
+}
