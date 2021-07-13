@@ -18,7 +18,14 @@ Here will be pictures of the website
 # User Experience 
 ## Design, Features 
 border-radius were rounded to give a sensation of tranquility
+### Background picture
+A picture for the background was added to give a 3D feelling and to give the sensation that the bacground could be touched. The reason for that is because the targeted people are people that like doing manual work including crochet and potentially knitting and sewing. I thus explect that many of this persons like to touch tissues and surfaces and thus added the background that gives this sensation (in my opinion of course).
+For a visual cohesion, the image was also used for the headings and footer and colors on top were 0.7 transparent to permit a subtil visualisation of the background image.
+
 ### Link to wireframes
+
+### Logo
+Logo was made using Inkscape using colors from the theme ()
 ### Theme Colors
 Theme colors were inspirided from the palettes:https://colorideas.net/del-rio-gray-iceberg-powder-blue-color-palette/ and https://icolorpalette.com/imagepalette/color-palette-ideas-from-horizon-sky-shore-image-2
 This palettes were chosen because it gives an overall sensation of calm and the addition of the orange color stimulates the curiosity and thus the creativity.
@@ -28,7 +35,7 @@ Colors where translated from HEX to RGB using the website: https://www.webfx.com
 ### Fonts
 Google fonts where used for the fonts of the website. 
 'Sacramento' was chosen for the body's font because it gives a feeling a hand writing which is, I presumed, attractive for people looking for manual activities. 
-'Josefin Slab' was chosen for the titles because it was a apopular pairing suggested in google font website and I found the combinaison of these 2 fonts pleasant. Moreover, this combinaison gives in my opinion, a clean look with an artistic touch.
+'Josefin Slab' was chosen for the titles because it was a popular pairing suggested in google font website and I found the combinaison of these 2 fonts pleasant. Moreover, this combinaison gives in my opinion, a clean look with an artistic touch.
 
 ### Pictures
 Pictures were resized using: https://spark.adobe.com/tools/image-resize/
