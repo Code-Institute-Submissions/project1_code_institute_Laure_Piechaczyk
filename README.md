@@ -53,6 +53,9 @@ Udemy courses:
 ## Pictures credits
 Three_balls_wool. Picture from unsplash by Karen Penroz. 
 Kid_slipper. Picture from Pixabay by sato1mo.
+Bag-beginner: Pixabay by xxolaxx 
+rinoceros intermediaire: Pixabay by leoleobobeo
+dragon for kkep the child inside you: pixabay by holmespj
 ## General websites credits
 
 # Tests

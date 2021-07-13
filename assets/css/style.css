@@ -83,10 +83,14 @@ a {
     list-style-type: none;
     margin-right: 30px;
 }
+#menu a:hover {
+    background-color: #f79449;
+    padding: 10px 10px 10px 10px;
+  }
 
 .cover {
     height:500px;
-    background: #84a0a8 url(../images/Three_balls_wool.jpg) 
+    background: url(../images/Three_balls_wool.jpg) 
     no-repeat center / cover;
     }
        
@@ -165,9 +169,63 @@ a {
     text-align:center
 }
 
+/*  #########  Courses      ##########  */
+.price {
+    color:#f79449;
+}
+
+.course-container{
+    width:40%;
+   
+}
+
+#weekly-course-container {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+#weekly-course-container img {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+}
+
+
+#worshops img {
+    max-width:100%;
+    border-radius: 12px;
+  }
+
+#worshop-container {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+#worshop-container div {
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 2px;
+    border-radius: 12px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-right:1% ;
+    margin-left:1% ;
+}
+
+#calendar-in-pdf {
+    
+}
+
+
+
 
 /* Footer */
-
 footer{
     clear: both;
     padding-top: 20px;
