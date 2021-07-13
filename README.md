@@ -22,6 +22,8 @@ border-radius were rounded to give a sensation of tranquility
 ### Theme Colors
 Theme colors were inspirided from the palettes:https://colorideas.net/del-rio-gray-iceberg-powder-blue-color-palette/ and https://icolorpalette.com/imagepalette/color-palette-ideas-from-horizon-sky-shore-image-2
 This palettes were chosen because it gives an overall sensation of calm and the addition of the orange color stimulates the curiosity and thus the creativity.
+Colors where translated from HEX to RGB using the website: https://www.webfx.com/web-design/hex-to-rgb/
+
 
 ### Fonts
 Google fonts where used for the fonts of the website. 
@@ -29,6 +31,7 @@ Google fonts where used for the fonts of the website.
 'Josefin Slab' was chosen for the titles because it was a apopular pairing suggested in google font website and I found the combinaison of these 2 fonts pleasant. Moreover, this combinaison gives in my opinion, a clean look with an artistic touch.
 
 ### Pictures
+Pictures were resized using: https://spark.adobe.com/tools/image-resize/
 
 # Built With
 HTML and CSS
