@@ -30,6 +30,7 @@ a {
     padding-bottom: 30px;
     font-size: 200%;
     clear: both;
+   
 }
 
 #header {
@@ -92,42 +93,38 @@ header img {
 }
 
 #reasons h2 {
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 #reasons p {
     padding-bottom: 40px;
 }
-
-#left-reasons {
-    padding-top: 30px;
-    width: 33%;
+#reasons-container {
+    display: inline-block; 
+    position:relative; /* to position the picture in absolute inside */
+}
+#left-reasons {   
+    width: 30%;
     float: left;
 }
-
 #right-reasons {
-    padding-top: 30px;
-    width: 33%;
+    width: 30%;
     float: right;
 }
-
-#center-reasons {
-    width: 33%;
-    margin: auto;
+#center-image {
+    width: 39%;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%)
 }
-
-#circle-container {
-    width: 250px;
-    height: 250px;
-    padding: 30px;
+#center-image img {
+    width: 80%;
+    border-radius: 50%;
     border-style: solid;
     border-color: #bdb6c4;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
+    padding: 15px;
+    border-width: 2px;
+    vertical-align: middle;
+    
 }
 
-#circle-cover {
-    background: url("../images/Kid_Slipper.jpg");
-    height: 100%;
-    border-radius: 50%;
-}
