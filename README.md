@@ -57,6 +57,9 @@ Bag-beginner: Pixabay by xxolaxx
 rinoceros intermediaire: Pixabay by leoleobobeo
 dragon for kkep the child inside you: pixabay by holmespj
 ## General websites credits
+clip with the help of https://bennettfeely.com/clippy/
+
+citations: https://artcenter-nnj.org/10-famous-quotes-about-art/
 
 # Tests
 
