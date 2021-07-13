@@ -42,6 +42,7 @@ Udemy courses:
 ## Inspiration credits
 ## Pictures credits
 Three_balls_wool. Picture from unsplash by Karen Penroz. 
+Kid_slipper. Picture from Pixabay by sato1mo.
 ## General websites credits
 
 # Tests

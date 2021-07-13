@@ -24,6 +24,14 @@ a {
     color: inherit;
 }
 
+.title {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-size: 200%;
+    clear: both;
+}
+
 #header {
     height:100px;
     width: 100%;
@@ -72,4 +80,54 @@ header img {
     line-height: 60px;
     border-radius: 25px;
     background-color:  #948287;
+}
+
+/*  4 Reasons  */
+#reasons {
+    text-align: center;
+} 
+
+#reasons .title {
+    padding-bottom: 40px;
+}
+
+#reasons h2 {
+    padding-bottom: 10px;
+}
+#reasons p {
+    padding-bottom: 40px;
+}
+
+#left-reasons {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#right-reasons {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#center-reasons {
+    width: 33%;
+    margin: auto;
+}
+
+#circle-container {
+    width: 250px;
+    height: 250px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #bdb6c4;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover {
+    background: url("../images/Kid_Slipper.jpg");
+    height: 100%;
+    border-radius: 50%;
 }
