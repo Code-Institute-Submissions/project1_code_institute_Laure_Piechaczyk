@@ -317,3 +317,44 @@ footer{
 }
 
 
+
+/* Form*/
+
+#contact{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 600px;
+}
+
+#contact-form {
+    background-color: rgba(228,228,228, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#contact-form h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  #find-us{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 600px;
+    text-align: center;
+  }
