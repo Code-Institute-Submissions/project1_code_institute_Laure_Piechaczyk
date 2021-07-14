@@ -56,6 +56,8 @@ Kid_slipper. Picture from Pixabay by sato1mo.
 Bag-beginner: Pixabay by xxolaxx 
 rinoceros intermediaire: Pixabay by leoleobobeo
 dragon for kkep the child inside you: pixabay by holmespj
+Teddy bears : Picture from pixabay by congerdesign
+Hat: picture from unsplash by Dana
 ## General websites credits
 clip with the help of https://bennettfeely.com/clippy/
 

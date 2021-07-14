@@ -175,9 +175,9 @@ a {
 }
 
 .course-container{
-    width:40%;
-   
+    width:40%; 
 }
+
 #weekly-courses {
     margin-top: -50px;
 }
@@ -196,27 +196,37 @@ a {
     border-radius: 12px;
 }
 
-#separation0{
-    line-height: 30px;
-    width:100%;
+#separation0 {
+    line-height: 100px;
+    width:2000px;
     height: 100px;
-    background-color: rgba(132,160,168, 0.7);
-    clip-path: polygon(100% 0, 100% 50%, 0 100%, 0 0);
+    background-color: rgba(228,228,228, 0.7);
+    clip-path: polygon(0 0, 100% 0%, 100% 30%, 0% 100%);
 }
+#separation0 p {
+    transform: rotate(-2deg);
+}
+
 #separation1{
-    line-height: 130px;
-    width:100%;
+    line-height: 115px;
+    width:2000px;
     height: 100px;
-    background-color: rgba(132,160,168, 0.7);
+    background-color: rgba(228,228,228, 0.7);
     clip-path: polygon(100% 0, 100% 50%, 0 100%, 0 50%);
+}
+#separation1 p {
+    transform: rotate(-1.5deg);
 }
 
 #separation2{
-    line-height: 50px;
-    width:100%;
+    line-height: 120px;
+    width:2000px;
     height: 100px;
-    background-color: rgba(132,160,168, 0.7);
+    background-color: rgba(228,228,228, 0.7);
     clip-path: polygon(100% 50%, 100% 100%, 0 50%, 0 0);
+}
+#separation2 p {
+    transform: rotate(1.5deg);
 }
 
 #worshops {
@@ -245,6 +255,11 @@ a {
     box-sizing: border-box;
     margin-right:1% ;
     margin-left:1% ;
+}
+
+#buttons-course {
+    text-align:center;
+    padding-bottom: 30px;
 }
 
 #calendar-in-pdf {
