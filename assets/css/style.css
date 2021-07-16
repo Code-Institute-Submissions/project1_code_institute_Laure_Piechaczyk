@@ -6,7 +6,7 @@
     border:0;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'Josefin Slab', serif;
 }
 
@@ -110,6 +110,13 @@ a {
     box-shadow: inset 0 0 0 1000px  rgba(148,130,135, 0.7);
 }
 
+/*  About  */
+#about h4{
+    text-align: center;
+    padding-top: 10px;
+}
+
+
 /*  4 Reasons  */
 #reasons {
     text-align: center;
@@ -164,7 +171,11 @@ a {
     vertical-align: middle;  
 }
 
-/*  Setion button course   */
+/*  Setion link-courses  */
+#link-courses {
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
 #buttons-course {
     text-align:center
 }
@@ -179,13 +190,24 @@ a {
 }
 
 #weekly-courses {
-    margin-top: -50px;
+    margin-top: -30px;
 }
 
 #weekly-course-container {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
+    padding-bottom: 15px;
+}
+
+#weekly-course-container h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#weekly-course-container p {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #weekly-course-container img {
@@ -230,7 +252,8 @@ a {
 }
 
 #worshops {
-    margin-top: -50px;
+    margin-top: -20px;
+    margin-bottom: 40px;
 }
 
 #worshops img {
@@ -257,13 +280,25 @@ a {
     margin-left:1% ;
 }
 
+#worshop-container h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#worshop-container h3 {
+    padding-bottom: 10px;
+}
+#worshop-container p {
+    padding-bottom: 10px;
+}
+
 #buttons-course {
     text-align:center;
     padding-bottom: 30px;
 }
 
 #calendar-in-pdf {
-margin-top: -50px;
+margin-top: -40px;
+margin-bottom: 20px;
 }
 
 /* Gallery */
@@ -271,8 +306,7 @@ margin-top: -50px;
     column-gap: 4px; 
     line-height: 0;
     column-count: 4;
-    margin: 10px 10px 10px 10px;
-
+    margin: 40px 10px 10px 10px;
 }
 
 #gallery-photos img{
@@ -287,7 +321,7 @@ footer{
     clear: both;
     padding-top: 20px;
     padding-bottom: 30px;
-    box-shadow: inset 0 0 0 1000px  rgba(132,160,168, 0.7);
+    background-color:  rgba(132,160,168, 0.7);
     text-align: center;
 }
 
@@ -327,7 +361,6 @@ footer a {
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
-    margin-bottom: 50px;
     max-width: 600px;
 }
 
@@ -356,8 +389,10 @@ footer a {
   #find-us{
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     max-width: 600px;
     text-align: center;
+  }
+  #find-us p {
+      padding-bottom: 20px;
   }
