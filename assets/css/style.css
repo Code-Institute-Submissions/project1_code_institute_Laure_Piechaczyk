@@ -179,7 +179,7 @@ a {
     border-color: #bdb6c4;
     padding: 15px;
     border-width: 2px;
-    vertical-align: middle;  
+ /*   vertical-align: middle;  */
 }
 
 /*  Setion link-courses  */
@@ -187,8 +187,10 @@ a {
     padding-bottom: 10px;
     padding-top: 20px;
 }
-#buttons-course {
-    text-align:center
+#buttons-course  {
+    display: flex;
+    justify-content: center;
+   /*  text-align:center */
 }
 
 /*  #########  Courses      ##########  */
@@ -334,7 +336,7 @@ margin-bottom: 20px;
 
 /* Footer */
 footer{
-    height: 170px;
+    height: 190px;
     clear: both;
     padding-top: 20px;
     padding-bottom: 30px;
@@ -363,9 +365,8 @@ footer a {
 }
 
 .social-networks i{
-    font-size: 150%;
-    margin: 1%;
-    padding: 2%;
+    font-size: 35px;
+    margin: 10px;
     color: #3a3a3a;
 }
 
@@ -529,6 +530,68 @@ footer a {
 
 
 /*   text Welcome Cripulette     */
+.cover span{
+    display: none;
+} 
 
+#about span {
+    display: none; 
+}
+
+#left-reasons{
+    display: block;
+    width: 100%;  
+}
+
+#right-reasons{
+    display: block;
+    width: 100%;  
+}
+
+
+.left-reasons-content {
+    float: none;
+    margin: auto; 
+}
+.right-reasons-content {
+    float: none;
+    margin: auto; 
+}
+
+#link-courses span {
+    display: none; 
+}
+
+#buttons-course {
+display: block;
+}
+#buttons-course p:first-child {
+    margin-bottom: 20px;
+    }
+
+
+/* Footer */
+footer {
+    height: max-content;
+}
+
+#left-footer, #right-footer, #middel-footer { 
+    border: solid 1px  #3a3a3a;
+    padding: 10px;
+    width: 80%;
+    float:none;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 12px;
+}
+
+.social-networks i{
+    font-size: 200%;
+    margin: 0%;
+    padding: 5px;
+    color: #3a3a3a;
+}
+
+  
 
 }

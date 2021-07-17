@@ -49,6 +49,8 @@ Code Institue:
 Udemy courses:
 - 10 techniques à connaître en CSS by Enzo Ustariz
 
+https://www.w3schools.com/howto/howto_js_mobile_navbar.asp for Burger menu
+
 ## Inspiration credits
 ## Pictures credits
 Three_balls_wool. Picture from unsplash by Karen Penroz. 
