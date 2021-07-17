@@ -1,9 +1,7 @@
 # Project 1 for Code Institute formation | Cripullette crochet - HTML & CSS
 Cripulette Crochet is a website built as part of a project for code institute (formation to become a webdeveloper) in order to developp and show my skills in HTML and CSS. 
 
-To do this, I invented a small business that offers courses and workshops to learn crochet. I have choosen this thema because I myself like doing crochet and deeply beleive that in our world where computers are omnipresent, we should all allow ourselves some time to do manual creations. 
-
-Nevertheless, the main objective of this website is to practice with HTML and CSS. For this reason, I made the decision to use only this 2 languages.
+To do this, I invented a small business that offers courses and workshops to learn crochet.
 
 Link to the website: Click me
 
@@ -13,7 +11,13 @@ Here will be pictures of the website
 # Table of content
 
 # About the project
-## Project Goal and target audience
+In order to practice, developp and show my skills in HTML and CSS, I invented a small business that offers courses and workshops to learn crochet. 
+I have choosen this theme because I myself do crochet and deeply beleive that in our world where computers are omnipresent, we should all allow ourselves some time to do manual creations. 
+
+Nevertheless, the main objective of this website is to practice with HTML and CSS. For this reason, I made the decision to use almost exclusivelly this 2 languages and avoided the use of Bootstrap in purpose in order to learn and consolidate my ability to write CSS code and control all elements. I did use a bit of Javascript for the fontawsome features and the Burger ...
+
+## The target audience
+The target audience of the project are adults crocheting or wanting to learn crochet. The offer in the project are courses and Worshops to learn and improve to crochet as well as getting new inspirations by making creation on various themes. 
 
 # User Experience 
 ## Design, Features 
