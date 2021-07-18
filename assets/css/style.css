@@ -418,6 +418,10 @@ footer{
       padding-bottom: 20px;
   }
 
+  iframe{
+    width="80%";
+  }
+
   /* For large to medium screens sizes from 1200px wide and down */
 @media screen and (max-width: 950px){
   /*  h1 {color: red;}*/
