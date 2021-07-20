@@ -534,6 +534,9 @@ footer{
 body {
     font-size: 120%;
 }
+p {
+    font-size: 150%;
+}
 
 /*  Burger for NAV  */
 #header {
@@ -575,10 +578,8 @@ body {
 }
 
 .cover {
-   
     background: url(../images/3ballswool-for-small.jpg) 
     no-repeat center / cover ;
-    
     }
 
 /*   text Welcome Cripulette     */
@@ -653,8 +654,6 @@ footer {
  .course-container, #worshop-container {
     width:90%; 
 }
-
  /* Contact */ 
-
 
 }
