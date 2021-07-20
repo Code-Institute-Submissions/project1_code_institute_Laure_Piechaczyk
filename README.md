@@ -75,8 +75,8 @@ I expect this site to be exchanged a lot between "crochetists" by sending the li
     -    ### Text
     In the home page The text in different screen size has modifications because I wanted that people get a
 
-    -   ####   Interactivity and forms
-        In purpose, few interactivity was added in the website in order to keep it simple and relaxing. Some forms with sentences from famous artist were displayed in non straight position to attract the attention of the reading but otherwise the website was kept simple.
+    -   ####   Interactivity, Animations and Geometrical forms
+        In purpose, few interactivity and animations were added in the website in order to keep it simple and relaxing. Some forms with sentences from famous artist were displayed in non straight position to attract the attention of the reading but otherwise the website was kept simple.
 
     -   ####   Border-radius
         Border-radius were rounded to give a sensation of tranquility.
@@ -95,6 +95,8 @@ The website is designed to be responsive to all devices. AS an example the respo
   -   ####   Animations
   For design reasons, there are very few animations on this website. To facilitate the user's navigation, the background colour and the padding of the navbar links change when the mouse is over them.
   <h2 align="center"><img src="assets/images/Picture-readme/over.png"></h2>
+  
+  @keyframe was used to change the background color of buttons for price and details in the courses webpage.
 
   -   ####   Position of elements & geometric forms
   Care was made to position the elements in the different sizes of the screens. Also in the page Courses and worshop, geometrical forms containing famous quotes were used as separations between the sections.

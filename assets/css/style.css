@@ -11,6 +11,7 @@ h1, h2, h3, h4 {
 }
 
 body{
+    overflow-x: hidden;
     font-family: 'Sacramento', cursive;
     color: #3a3a3a;
     background-image: url(../images/striped_lens.png); /* Background pattern from Toptal Subtle Patterns called Translucent Fibres made by Angelica */
@@ -40,7 +41,7 @@ a {
     background-color: #3a3a3a;
     border: none;
     color: white;
-    padding: 15px 15px;
+    padding: 10px 10px;
     text-align: center;
     border-radius: 12px;
     text-decoration: none;
@@ -53,7 +54,7 @@ a {
 #header {
     height:100px;
     width: 100%;
-    background-color:   rgba(132,160,168, 0.7);
+    background-color: rgba(132,160,168, 0.7);
 }
 #icon-burger{
     display: none;
@@ -197,8 +198,18 @@ a {
 
 /*  #########  Courses      ##########  */
 .price {
-    color:#f79449;
+    background-color: white;
+    color:rgb(247,148,73);
+    animation-name: color-change;
+    animation-duration: 6s; 
 }
+
+@keyframes color-change {
+    0% { background-color: rgb(247,148,73,0.7);   
+    }
+    100% { background-color: white; 
+    }
+  }
 
 .title-weekly-course{
     padding-top: 20px;
@@ -236,6 +247,16 @@ a {
     margin-left: auto;
     margin-right: auto;
     border-radius: 12px;
+}
+
+#beginner-details {
+    display: none;
+    margin-top: 10px;
+}
+
+#intermediate-details {
+    display: none;
+    margin-top: 10px;
 }
 
 #separation0 {
@@ -311,14 +332,35 @@ a {
     padding-bottom: 10px;
 }
 
+#worshops-details {
+    display: none;
+    border-style: solid;
+    border-color: #f79449;
+    border-width: 2px;
+    border-radius: 12px;
+    padding: 10px;
+    margin-right:1% ;
+    margin-left:1% ;
+    margin-top: 10px;
+    text-align: center; 
+}
+
+#worshops-details h2 {
+    padding-bottom: 10px;
+}
+
 #buttons-course {
     text-align:center;
     padding-bottom: 30px;
 }
 
-#calendar-in-pdf {
+#calendar {
 margin-top: -40px;
 margin-bottom: 20px;
+}
+
+#calendar-page{
+    margin: auto;
 }
 
 /* Gallery */
@@ -334,7 +376,6 @@ margin-bottom: 20px;
     border-radius: 12px;
     border-bottom:2px solid transparent; 
 }
-
 
 /* Footer */
 footer{
@@ -419,7 +460,7 @@ footer{
   }
 
   iframe{
-    width="80%";
+    width: 80%;
   }
 
   /* For large to medium screens sizes from 1200px wide and down */

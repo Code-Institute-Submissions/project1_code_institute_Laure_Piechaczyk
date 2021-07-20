@@ -36,7 +36,7 @@
             </li>
         </ul>
     </nav>
-    <a href="javascript:void(0);" id="icon-burger" onclick="myFunction()">
+    <a href="javascript:void(0);" id="icon-burger" onclick="myFunctionBurger()">
         <i class="fa fa-bars"></i>
       </a>
 </header> 
@@ -65,8 +65,26 @@
                     <p>This course is for you if you are interested in learning the basics of crochet. 
                         It focus on  basic crochet stitches, tools and takes you through your project. 
                     </p>
-                    <h4 class="price">Price and details</h4>
+                    <p class="price button"> <a href="javascript:void(0);"  onclick="myFunctionBeginner()">
+                        Price and details </a>
+                    </p>
+                    <Div id="beginner-details">
+                        <h3>What to bring?</h3>
+                        <p>Whatever you have. If you have crochets and yarn, come over with. Otherwise 
+                            you can bring nothing and use the crochets and yarns we have to learn stitches. 
+                            However for you projects, you will need to have your own wool but we can discuss
+                             before you buy it. </p>
+                        <h3>Registration</h3>
+                        <p>No registration is required for this course, just come to 99 Royal Park Terrace, Edinburgh.
+                             If you have any question, please send a message to 
+                             <strong><u>cripulettecrochet@gmail.com</u> </strong>
+                             or a message <a href="contact.html" target="_blank"><strong><u>here</u> </strong> </a>. </p>
+                        <h3>Price</h3>
+                        <p>10 £ each course, You can choose to come once or every week.</p>
+                    </Div>
                 </div>
+
+
                 <div class="course-container">
                     <h2 class="title-weekly-course">Intermediate course</h2>
                     <img src="assets/images/rhinoceros-intermediate.jpeg" alt="Rhinoceros made in crochet with paterns on it">
@@ -75,7 +93,21 @@
                     <p>This course is for you if you have already some knowledge in crochet and want to expand it. It focus on the technics 
                         and takes you through your project. 
                     </p>
-                    <h4 class="price">Price and details</h4>
+                    <p class="price button"> <a href="javascript:void(0);"  onclick="myFunctionIntermediate()">
+                        Price and details </a>
+                    </p>
+                    <Div id="intermediate-details">
+                        <h3>What to bring?</h3>
+                        <p>Your own material. You can try the crochets we have but as an advice, use your own material.
+                            We can of course discuss about new material before you buy it. </p>
+                        <h3>Registration</h3>
+                        <p>No registration is required for this course, just come to 99 Royal Park Terrace, Edinburgh.
+                             If you have any question, please send a message to 
+                             <strong><u>cripulettecrochet@gmail.com</u> </strong>
+                             or a message <a href="contact.html" target="_blank"><strong><u>here</u> </strong> </a>. </p>
+                        <h3>Price</h3>
+                        <p>10 £ each course, You can choose to come once or every week.</p>
+                    </Div>
                 </div>
     </div>
     </section>
@@ -94,7 +126,10 @@
                     <p>To offer or for your own, there is always a good reason to make toys. This workshop
                          focuses on the creation of toys and specific technics to do them. It is suitable for 
                          all levels and kept in a small group of maximum 6 persons.  </p>
-                    <h4 class="price">Price and details</h4>
+                    <p class="price button"> <a href="javascript:void(0);"  onclick="myFunctionWorkshop()">
+                        Price and details </a>
+                    </p>
+
                 </div>
                 <div>
                     <img src="assets/images/hat-crochet.jpeg" alt="Picture of a Hat made with crochet" />
@@ -104,7 +139,9 @@
                     <p>Winter is coming! Stay warm with a collection of hats, scarfs, pull-overs …  
                         This workshop focuses on the creation of wool clothes for adults. 
                         It is suitable for all levels and kept in a small group of maximum 6 persons.    </p>
-                    <h4 class="price">Price and details</h4>
+                        <p class="price button"> <a href="javascript:void(0);"  onclick="myFunctionWorkshop()">
+                            Price and details </a>
+                        </p>
                 </div>
                 <div>
                     <img src="assets/images/dress-the-Kids-and-babies.jpeg" alt="picture of slipper for kid made with crochet" />
@@ -114,20 +151,42 @@
                     <p>Home made clothes for Babies and Kids are really cute, aren't they? 
                         This workshop focuses on the creation of clothes for babies and kids. 
                         It is suitable for all levels and kept in a small group of maximum 6 persons.    </p>
-                    <h4 class="price">Price and details</h4>
+                    <p class="price button"> <a href="javascript:void(0);"  onclick="myFunctionWorkshop()">
+                        Price and details </a>
+                    </p>
                 </div>
             </div>
-    
+
+            <div id="worshops-details">
+                <h2>Workshops details</h2>
+                <h3>What to bring?</h3>
+                <p>Your own material. You can try the crochets we have but as an advice, use your own material.
+                    We can of course discuss about new material before you buy it. </p>
+                <h3>Registration</h3>
+                <p>The maximum group size is 6 persons. In order to book your place,
+                    please send a message to 
+                     <strong><u>cripulettecrochet@gmail.com</u> </strong>
+                     or a message <a href="contact.html" target="_blank"><strong><u>here</u> </strong> </a>. </p>
+                <h3>Organisation</h3>
+                <p>We jjjj from kk to jjj. We eat together in the kitchen in Cripulette crochet. You can bring your 
+                    own food, we have a microwave and couverts ....
+                </p>
+                <h3>Price</h3>
+                <p>85£ for the week end</p>
+            </div>
+
         </section>  
 
         <div id="separation2"><p>“Creativity takes courage” – Henri Matisse</p> </div> 
 
-        <section id="calendar-in-pdf">
-            <h2 class="title">Calendar in PDF</h2>
+        <section id="calendar">
+            <h2 class="title">Calendar</h2>
             <div id="buttons-course">
-                <a href="calendar.pdf" class="button">Course PDF</a>
+                <a href="calendar.html" class="button">Google Calendar</a>
             </div>
-          </section>      
+          </section>    
+          
+ </div>         
 
 <!-- #####  Footer  ##### -->
 <footer >
