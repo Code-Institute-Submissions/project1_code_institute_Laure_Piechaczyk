@@ -1,4 +1,5 @@
 @import url('href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Pacifico&family=Roboto:wght@100;400&display=swap');
 
 *{
     margin:0;
@@ -99,7 +100,7 @@ a {
        
 .cover-text {
     display:inline-block;
-    min-width: 180px;
+    min-width: 250px;
     width: 40%;
     font-size: 130%;
     letter-spacing: 4px;
@@ -533,9 +534,7 @@ footer{
  /*   h1 {color: yellow;}*/
 body {
     font-size: 120%;
-}
-p {
-    font-size: 150%;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*  Burger for NAV  */
