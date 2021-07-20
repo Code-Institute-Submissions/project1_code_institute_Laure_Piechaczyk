@@ -12,7 +12,6 @@ h1, h2, h3, h4 {
 }
 
 body{
-    overflow-x: hidden;
     font-family: 'Sacramento', cursive;
     color: #3a3a3a;
     background-image: url(../images/striped_lens.png); /* Background pattern from Toptal Subtle Patterns called Translucent Fibres made by Angelica */
@@ -198,6 +197,10 @@ a {
 }
 
 /*  #########  Courses      ##########  */
+#no-scroll-right{
+    overflow-x: hidden; 
+}
+
 .price {
     background-color: white;
     color:rgb(247,148,73);
@@ -258,6 +261,10 @@ a {
 #intermediate-details {
     display: none;
     margin-top: 10px;
+}
+
+.small-screen {
+    display: none;
 }
 
 #separation0 {
@@ -653,6 +660,28 @@ footer {
  .course-container, #worshop-container {
     width:90%; 
 }
+
+.from-middel-screen{
+    display: none;
+}
+.small-screen {
+    display: block;
+}
+
+#separation0 p {
+    padding-top: 20px;
+    line-height: 20px;
+}
+#separation1 p{
+    padding-top: 30px;
+    line-height: 20px;
+}
+
+#separation2 p{
+    padding-top: 35px;
+    line-height: 20px;
+}
+
  /* Contact */ 
 
 }
