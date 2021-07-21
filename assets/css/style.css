@@ -1,4 +1,3 @@
-@import url('href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Pacifico&family=Roboto:wght@100;400&display=swap');
 
 *{
@@ -8,22 +7,20 @@
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Josefin Slab', serif;
+    font-family: serif;
 }
 
 body{
-    font-family: 'Sacramento', cursive;
+    font-family: cursive;
     color: #3a3a3a;
     background-image: url(../images/striped_lens.png); /* Background pattern from Toptal Subtle Patterns called Translucent Fibres made by Angelica */
 }
 
-h1, h2, h3 {
-    font-family: 'Josefin Slab', serif;
-}
 a {
     text-decoration: none;
     color: inherit;
 }
+
 .container {
     margin-right:1%;
     margin-left:1%;
@@ -46,16 +43,16 @@ a {
     border-radius: 12px;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
     margin-right: 10px;
     margin-left: 10px;
-  }
+}
 
 #header {
     height:100px;
     width: 100%;
     background-color: rgba(132,160,168, 0.7);
 }
+
 #icon-burger{
     display: none;
 }
@@ -86,16 +83,16 @@ a {
     list-style-type: none;
     margin-right: 30px;
 }
+
 #menu a:hover {
-    background-color: #ee9305; /* #ee9305 */
+    background-color: #ee9305; 
     padding: 10px 10px 10px 10px;
-  }
+}
 
 .cover {
     height:500px;
-    background: url(../images/Three_balls_wool.jpg) 
-    no-repeat center / cover;
-    }
+    background: url(../images/Three_balls_wool.jpg) no-repeat center / cover;
+}
        
 .cover-text {
     display:inline-block;
@@ -107,8 +104,8 @@ a {
     margin-left:5%;
     margin-top: 200px;
     text-align: center; 
-    vertical-align: middle;
-    border-radius: 25px;
+   /* vertical-align: middle; */
+    border-radius: 25px; 
     background-image: url(../images/striped_lens.png); /* Background pattern from Toptal Subtle Patterns called Translucent Fibres made by Angelica */
     box-shadow: inset 0 0 0 1000px  rgba(148,130,135, 0.7);
 }
@@ -117,12 +114,9 @@ a {
     line-height: 50px;
 }
 
+/*  ####### Content - Index #######  */
 /*  About  */
 #about {
-    text-align: center;
-    padding-top: 10px;
-}
-#about h4{
     text-align: center;
     padding-top: 10px;
 }
@@ -141,6 +135,7 @@ a {
     font-size: 150%;
     padding-bottom: 10px;
 }
+
 #reasons p {
     padding-bottom: 40px;
 }
@@ -167,6 +162,7 @@ a {
     width: 90%;
     float: left;
 }
+
 #center-image {
     width: 39%;
     position: absolute;
@@ -174,6 +170,7 @@ a {
     top:50%;
     transform: translate(-50%, -50%)
 }
+
 #center-image img {
     max-width: 330px;
     width: 80%;
@@ -182,7 +179,6 @@ a {
     border-color: #bdb6c4;
     padding: 15px;
     border-width: 2px;
- /*   vertical-align: middle;  */
 }
 
 /*  Setion link-courses  */
@@ -190,15 +186,16 @@ a {
     padding-bottom: 10px;
     padding-top: 20px;
 }
+
 #buttons-course  {
     display: flex;
     justify-content: center;
-   /*  text-align:center */
 }
 
-/*  #########  Courses      ##########  */
+
+/*  #########  Content - Courses      ##########  */
 #no-scroll-right{
-    overflow-x: hidden; 
+    overflow-x: hidden; /* for the design geometrical forms have large width, this is to hide on the overflow */
 }
 
 .price {
@@ -213,13 +210,14 @@ a {
     }
     100% { background-color: white; 
     }
-  }
+}
 
 .title-weekly-course{
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 180%;
 }
+
 .course-container{
     width:45%; 
 }
@@ -253,16 +251,12 @@ a {
     border-radius: 12px;
 }
 
-#beginner-details {
+.courses-details {
     display: none;
     margin-top: 10px;
 }
 
-#intermediate-details {
-    display: none;
-    margin-top: 10px;
-}
-
+/* Work on the geometrical forms that are used for separation */
 .small-screen {
     display: none;
 }
@@ -285,6 +279,7 @@ a {
     background-color: rgba(228,228,228, 0.7);
     clip-path: polygon(100% 0, 100% 50%, 0 100%, 0 50%);
 }
+
 #separation1 p {
     transform: rotate(-1.5deg);
 }
@@ -296,6 +291,7 @@ a {
     background-color: rgba(228,228,228, 0.7);
     clip-path: polygon(100% 50%, 100% 100%, 0 50%, 0 0);
 }
+
 #separation2 p {
     transform: rotate(1.5deg);
 }
@@ -367,11 +363,8 @@ margin-top: -40px;
 margin-bottom: 20px;
 }
 
-#calendar-page{
-    margin: auto;
-}
 
-/* Gallery */
+/* ######     Content - Gallery     ########## */
 #gallery-photos {
     column-gap: 4px; 
     line-height: 0;
@@ -385,7 +378,7 @@ margin-bottom: 20px;
     border-bottom:2px solid transparent; 
 }
 
-/* Footer */
+/* #######   Footer     ######## */
 footer{
     height: 190px;
     clear: both;
@@ -411,7 +404,7 @@ footer{
     margin: 0 auto;
 }
 
-.social-networks i{
+.social-networks i {
     font-size: 35px;
     margin: 10px;
     color: #3a3a3a;
@@ -421,9 +414,7 @@ footer{
     list-style-type: none;
 }
 
-
-/* ############  Form  #####################*/
-
+/* ############  Content - Form  #####################*/
 #contact{
     margin-left: auto;
     margin-right: auto;
@@ -471,9 +462,17 @@ footer{
     width: 80%;
   }
 
+/* #######    Content - Calendar     ######## */
+  #calendar-page {
+    margin-top: 30px;
+    margin-bottom: 10px; 
+    text-align: center;
+  }
+
+/* ######### Responsive part  ########## */
+
   /* For large to medium screens sizes from 1200px wide and down */
 @media screen and (max-width: 950px){
-  /*  h1 {color: red;}*/
 
 .cover-text h1 {
     line-height: 40px;
@@ -487,33 +486,39 @@ footer{
 #reasons {
     padding-top: 0px;
 } 
+
 #left-reasons {   
     width: 45%;
     float: left;
 }
+
 #right-reasons {
     width: 45%;
     float: right;
 }
+
 #center-image {
     top:200px;
     transform: translate(-160px, -230px);
 }
+
 #center-image img {
     width: 300px; 
 }
+
 #reasons-container {
     padding-top : 320px;
 }
 
- #link-courses {
+#link-courses {
     margin-top: -60px;
 }
-   /* ######.  Courses.   #######*/  
+
+/*  Courses  */  
 #weekly-course-container {
        display: block;
- 
 }
+
 .course-container {
     margin: auto;
     width:65%; 
@@ -529,16 +534,15 @@ footer{
     margin-bottom: 10px;
 }
 
-/* ######  Gallery   ####### */  
-
+/*   Gallery   */  
 #gallery-photos {
     column-count: 2;
 }
 
-}
+}. /* Close  @media screen and (max-width: 950px) */
 
 @media screen and (max-width: 750px){
- /*   h1 {color: yellow;}*/
+
 body {
     font-size: 120%;
     font-family: 'Roboto', sans-serif;
@@ -634,7 +638,7 @@ body {
     margin-bottom: 20px;
 }
 
-/* Footer */
+/*   Footer  */
 footer {
     height: max-content;
 }
@@ -682,6 +686,4 @@ footer {
     line-height: 20px;
 }
 
- /* Contact */ 
-
-}
+} /* Close  @media screen and (max-width: 750px) */
