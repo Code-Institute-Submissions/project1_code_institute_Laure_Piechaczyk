@@ -539,9 +539,9 @@ footer{
     column-count: 2;
 }
 
-}. /* Close  @media screen and (max-width: 950px) */
+} /* Close  @media screen and (max-width: 950px) */
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 750px) {
 
 body {
     font-size: 120%;
