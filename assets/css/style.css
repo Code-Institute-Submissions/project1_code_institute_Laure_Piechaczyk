@@ -251,7 +251,12 @@ a {
     border-radius: 12px;
 }
 
-.courses-details {
+#beginner-details {
+    display: none;
+    margin-top: 10px;
+}
+
+#intermediate-details {
     display: none;
     margin-top: 10px;
 }
@@ -296,17 +301,17 @@ a {
     transform: rotate(1.5deg);
 }
 
-#worshops {
+#workshops {
     margin-top: -20px;
     margin-bottom: 40px;
 }
 
-#worshops img {
+#workshops img {
     max-width:100%;
     border-radius: 12px;
   }
 
-#worshop-container {
+#workshop-container {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
@@ -314,7 +319,7 @@ a {
     margin-left: 5%;
 }
 
-#worshop-container div {
+#workshop-container div {
     border-style: solid;
     border-color: #cccccc;
     border-width: 2px;
@@ -323,20 +328,21 @@ a {
     box-sizing: border-box;
     margin-right:1% ;
     margin-left:1% ;
+    width: 33%;
 }
 
-#worshop-container h2 {
+#workshop-container h2 {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-#worshop-container h3 {
+#workshop-container h3 {
     padding-bottom: 10px;
 }
-#worshop-container p {
+#workshop-container p {
     padding-bottom: 10px;
 }
 
-#worshops-details {
+#workshops-details {
     display: none;
     border-style: solid;
     border-color: #f79449;
@@ -349,7 +355,7 @@ a {
     text-align: center; 
 }
 
-#worshops-details h2 {
+#workshops-details h2 {
     padding-bottom: 10px;
 }
 
@@ -471,7 +477,7 @@ footer{
 
 /* ######### Responsive part  ########## */
 
-  /* For large to medium screens sizes from 1200px wide and down */
+  /* For medium screens sizes under 950px */
 @media screen and (max-width: 950px){
 
 .cover-text h1 {
@@ -525,13 +531,15 @@ footer{
     padding-bottom: 20px;
 }
    
-#worshop-container {
+#workshop-container {
     display: block;
     width: 60%;
     margin: auto;
 }
-#worshop-container div {
+#workshop-container div {
     margin-bottom: 10px;
+    width: 100%;
+
 }
 
 /*   Gallery   */  
@@ -661,7 +669,7 @@ footer {
 }
 
  /* Courses */ 
- .course-container, #worshop-container {
+ .course-container, #workshop-container {
     width:90%; 
 }
 

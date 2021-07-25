@@ -6,7 +6,7 @@ function myFunctionBurger() {
       } else {
         x.style.display = "block";
       }
-    }
+}
 
 function myFunctionBeginner() {
   var x = document.getElementById("beginner-details");
@@ -15,7 +15,7 @@ function myFunctionBeginner() {
     } else {
       x.style.display = "block";
     }
-  }
+}
 
 function myFunctionIntermediate() {
   var x = document.getElementById("intermediate-details");
@@ -24,14 +24,14 @@ function myFunctionIntermediate() {
     } else {
       x.style.display = "block";
     }
-  }
+}
 
 function myFunctionWorkshop() {
-  var x = document.getElementById("worshops-details");
+  var x = document.getElementById("workshops-details");
   if (x.style.display === "block") {
       x.style.display = "none";
     } else {
       x.style.display = "block";
     }
-    location.href="#worshops-details";
-  }
+    location.href="#workshops-details";
+}
