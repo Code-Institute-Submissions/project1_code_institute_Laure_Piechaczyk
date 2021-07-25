@@ -1,4 +1,4 @@
-<h1 align="center"> Project 1 for Code Institute formation | Cripullette Crochet - HTML & CSS</h1>
+<h1 align="center"> Project 1 for Code Institute formation | Cripulette Crochet - HTML & CSS</h1>
 
 [View the live project here.](https://laurepiechaczyk.github.io/project1_code_institute_Laure_Piechaczyk/)
 
@@ -6,7 +6,7 @@ Cripulette Crochet is a website built as part of a project for the code institut
 
 To do this, I invented a small business that offers courses and workshops to learn crochet.
 
-<h2 align="center"><img src="assets/images/Picture-readme/Presentation_Website.png"></h2>
+<h3 align="center"><img src="assets/images/Picture-readme/Presentation_Website.png"></h3>
 
 # Table of content
 
@@ -52,11 +52,14 @@ So I built the site with this in mind and made design choices that seemed releva
             
     -   #### Pictures
         1. Homepage
+
         For the design of the homepage, I wanted to focus on the process of creation and not on a final creation. That is why I have chosen images showing wool, hooks and the process of making crochet.
         The reason is that I did not want to influence the user's imagination on the homepage.
         2. Courses and Workshops
+
         For this page, I have tried to choose photos that illustrate the proposed course and worshop.  
         3. Gallery
+
         I have tried to illustrate the diversity of creations that can be made with crochet as well as the different technical levels of creations. As I used royalty free images, I was limited in the images I could use and I think the diversity of crochet could have been better illustrated.
 
     -   ### Fonts
@@ -79,17 +82,17 @@ The site is structured in 4 web pages with a link on the navbar + 1 page (calend
 -   #### Responsivness
     The website is designed to be suitable for all devices. For example, the responsive navigation bar turns into a burger button for phone screens.
     Similarly, the text in some sections has been modified to suit the screen size. This was done to provide more complete information for computer users while allowing phone users to focus on the main information.
-<h2 align="center"><img src="assets/images/Picture-readme/Burger.png"></h2>
+<h3 align="center"><img src="assets/images/Picture-readme/Burger.png"></h3>
 
 -   #### Animations
     For design reasons, there is very little animation on this site. To make it easier for the user to navigate, the background colour and the filling of the links in the navigation bar change when the mouse passes over them.
-<h2 align="center"><img src="assets/images/Picture-readme/over.png"></h2>
+<h3 align="center"><img src="assets/images/Picture-readme/over.png"></h3>
   
 @keyframe was used to change the background colour of the buttons for the price and details on the course web page. However, I expect that this animation will be noticed mainly by people who browse the website quickly and expect to reach the detailed information quickly.
 
   -   ####   Position of elements and geometric shapes
-Care has been taken to position the elements in the different screen sizes. Similarly, in the Courses and Workshops page, geometric shapes containing famous quotes have been used as separators between sections.
-<h2 align="center"><img src="assets/images/Picture-readme/Position-geometric-forms.png"></h2>
+Care has been taken to position the elements in the different screen sizes. In the Courses and Workshops page, geometric shapes containing famous quotes have been used as separators between sections.
+<h3 align="center"><img src="assets/images/Picture-readme/Position-geometric-forms.png"></h3>
     
 ## Technologies used
 
@@ -129,11 +132,11 @@ Care has been taken to position the elements in the different screen sizes. Simi
 
 - [Colorrrs](https://www.webfx.com/web-design/hex-to-rgb/) | used to convert hex color to rgb color.
 
-- [Chrome DevTools](https://developer.chrome.com/docs/devtools/) | used to inpect the elements, codes and to see the how the site look like on various phones and tabletts
+- [Chrome DevTools](https://developer.chrome.com/docs/devtools/) | used to inspect the elements, codes and to see the how the site look like on various phones and tabletts
 
 - [Clippy](https://bennettfeely.com/clippy/) | used to get rapidly codes to design forms with clip-path.
 
-- [DeepL](https://www.deepl.com/) | used to translate words from French to englishs and write the website content and the read me file
+- [DeepL](https://www.deepl.com/) |  used to translate words from French to English and to write the content of the website and the 'Read me' file
 
 # Credits
 
@@ -161,11 +164,11 @@ Some of the content of the website was inspired by [ammoniteyarns](https://www.a
 [stakocverflow](https://stakocverflow.com/) - Used throughout the project.
 
 ## Read me file credits
-As this is the first 'Readme' file I've done, I've read the 'readme' of many students who were kind enough to share their first projects and 'read me' files from different sources found on Github.
+As this is the first 'Readme' file I have ever written, I've read files of many students who were kind enough to share their first projects.
 The 'Readme' file from [LogisticBravo](https://github.com/LogisticBravo/Milestone_Project-1-3DPrintQ) was a great source of inspiration.
 
 ## Pictures credits
-Pictures were taken from [Pixabay](https://pixabay.com/) and [unsplash](https://unsplash.com/). The backgroung picture was taken from [Toptal](https://www.toptal.com/designers/subtlepatterns/?s=striped_lens).
+Pictures were taken from [Pixabay](https://pixabay.com/) and [Unsplash](https://unsplash.com/). The backgroung picture was taken from [Toptal](https://www.toptal.com/designers/subtlepatterns/?s=striped_lens).
 - ### cover:
     - Three balls wool: Unsplash by Karen Penroz. 
 - ### Homepage:
@@ -194,8 +197,9 @@ citations: [ACNNJ](https://artcenter-nnj.org/10-famous-quotes-about-art/)
 # Tests
 On 25 July 2021, all pages were checked with [W3C Markup Validation Service](https://validator.w3.org/) and [W3C CSS Validation service](https://jigsaw.w3.org/css-validator/) and error were found.
 However, the code has been tested before and found to have errors. 
-With regard to the verification of the HTML code, two duplicate tags had to be removed and the iframe tags used to link google mag and google calender had to be corrected, as advised by the [W3C Markup Validation Service] (https://validator.w3.org/).
+With regard to the verification of the HTML code, two duplicate tags had to be removed and the iframe tags used to link google mag and google calender had to be corrected, as advised by the [W3C Markup Validation Service](https://validator.w3.org/).
 The css checker revealed an erroneous link to google fonts which has now been removed.
+
 
 # Deployment
 The website has been deployed with github.
@@ -209,20 +213,25 @@ The website has been deployed with github.
 
 
 # What could have been made better
+- Organisation before starting to code
+As I was very keen to get my project off the ground quickly, I started coding it very early on. I received the very justified remark that I used a lot of ids and that it might be better to limit the number of ids especially when working in a team. I realised that I could have taken more time at the beginning of the project to design the sections before I even coded, imagining which classes could be applied. I think this would have resulted in cleaner code. 
+
 - Fonts
-As I did not noticed the fonts 
-
-- More time before starting
-
-- More classes - less ids
-
-The original fonts chosen from the google font site were: 'Sacramento' and 'Josefin Slab'. However, I made a mistake when I copied the link, and did not work with these fonts. I realised towards the end of the project the error, corrected the link but realised I preferred the previous fonts and so deleted the link for the 'Sacramento' and 'Josefin Slab' fonts.
-
+The original fonts chosen from the google font site were: 'Sacramento' and 'Josefin Slab'. However, I made a mistake when I copied the link, and did not work with these fonts. I realised towards the end of the project the error, corrected the link but realised I preferred the previous fonts and so deleted the link for the 'Sacramento' and 'Josefin Slab' fonts. I honestly think I should have seen this error earlier and checked that I was using the correct font at an earlier stage.
 
 # Conclusion
-This project permitted to deeper and consolidate my knowlgde in HTML and CSS. 
-Having knowledge in coding language to analyse data because of a scientific bacground and the used of mostly R to analyse own data, I had the naivty to expect to manage rapidly CSS.
-However, I found that even if the logic of CSS seemed at first easy, the reality of using it and controlling all elements was quite challenging. It requires in my opinion a really well knowledge of a huge amount of ... which I am still far to know or even imagine all of them. Which is great because I know I will do much more in futur using CSS. It also requires a really good big picture of the project even before starting coding. I would have to admit that my anthousiams to code made me go fast on the first design steps. I however realized that taking more time at the start to design the sections and even before coding imagine with class for css could be applied, could have decreased the use of ids and thus given a cleaner code. 
-Nevertheless, I really enjoyed the project for the 
+This project has deepened and consolidated my knowledge of HTML and CSS. I also hope that it shows that I have a good foundation in these languages.
+
+Having knowledge of coding language for analysing data from a scientific background, I was naïve enough to expect to handle CSS quickly. However, I found that although the logic of CSS seemed easy at first, the reality of using it and controlling all the elements was quite complex. It requires, in my opinion, a very good knowledge of a huge amount of CSS codes, which is good, because I know that CSS offers a lot of possibilities that I haven't explored yet.
+
+I also found that in order to run the project smoothly, it is important to have a very good overview of the project before starting to code and throughout the project. 
 
 # Acknowlegments
+
+- My mentor, Nishant Kumar, for giving me the direction to start the project, for guiding me through the project, for giving me the idea to implement new features and for giving me feedback.
+
+- Andras Rab, for suggestions to improve the design.
+
+- The Slack community for clarifying certain concepts, sharing tips and links and, of course, for always helping me with coding.
+
+- Code institutes student support for giving clear advice on the project when I was unsure of the theme and expectations.
