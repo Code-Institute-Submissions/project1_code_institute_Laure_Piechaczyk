@@ -2,15 +2,14 @@
 
 [View the live project here.](https://laurepiechaczyk.github.io/project1_code_institute_Laure_Piechaczyk/)
 
-Cripulette Crochet is a website built as part of a project for the code institute (training to become a web developer) to develop and show my skills in HTML and CSS. 
+Cripulette Crochet is a website built as part of a project for the [code institute](https://codeinstitute.net/) (training to become a web developer) to develop and show my skills in HTML and CSS. 
 
 To do this, I invented a small business that offers courses and workshops to learn crochet.
 
 <h3 align="center"><img src="assets/images/Picture-readme/Presentation_Website.png"></h3>
 
 # Table of content
-
-<details open>
+<details>
 <summary>Open the Table of Contents here</summary>
 
 [About The Project](#about-the-project) 
@@ -31,23 +30,27 @@ To do this, I invented a small business that offers courses and workshops to lea
 
 [Technologies used](#technologies-used)
 - [Languages used](#languages-used)
-- [Frameworks, Libraries & Programs used](#frameworks)
+- [Frameworks, Libraries & Programs used](#frameworks,-libraries-&-programs-used)
 
-Credits
-  Inspiration credits
-  Code credits
-  Read me file credits
- Pictures credits
- General websites credits
-Tests
-  Code validation and issues found
-  Test on browsers
-  Test on devices
-Deployment 
-What could have been made better
-Conclusion
-Acknowlegments
+[Credits](#credits)
+- [Inspiration credits](#inspiration-credits)
+- [Code credits](#code-credits)
+- [Read me file credits](#Read-me-file-credits)
+- [Pictures credits](#pictures-credits)
+- [General websites credits](#general-websites-credits)
 
+[Tests](#tests)
+- [Code validation and issues found](#code-validation-and-issues-found)
+- [Test on browsers](#test-on-browsers)
+- [Test on devices](#test-on-devices)
+
+[Deployment](#deployment) 
+
+[What could have been made better](#What-could-have-been-made-better)
+
+[Conclusion](#conclusion)
+
+[Acknowledgments](#acknowledgments)
 
 </details>
 
@@ -75,13 +78,13 @@ The target users are adults who enjoy doing crafts such as crocheting, knitting 
 
 This last point made me raise an interesting question: How do you attract people who might want to avoid the media by using the media? 
 
-So I built the site with this in mind and made design choices that seemed relevant to allow users to feel in a calm and welcoming environment when browsing the site.
+So, I built the site with this in mind and made design choices that seemed relevant to allow users to feel in a calm and welcoming environment when browsing the site.
 
 ## Visitor Goals
- 1. To feel calm and stay relax.
- 2. Find the offers/information rapidly.
- 3. Get motivation and inspiration even if the user does not register for a course.
- 4. That the user like the website and offers enough to share it with friends. 
+1. To feel calm and stay relax.
+2. Find the offers/information rapidly.
+3. Get motivation and inspiration even if the user does not register for a course.
+4. That the user like the website and offers enough to share it with friends. 
 
 ## Main design choices
 - ### Theme Colors
@@ -103,8 +106,8 @@ So I built the site with this in mind and made design choices that seemed releva
      I have tried to illustrate the diversity of creations that can be made with crochet as well as the different technical levels of creations. As I used royalty free images, I was limited in the images I could use and I think the diversity of crochet could have been better illustrated.
 
 - ### Fonts
-  The Cursiv font was chosen for the body text on large and medium-sized screens because it gives the impression of handwriting, which I suppose is attractive to people looking for manual activities. For small screens such as phones, the Roboto font was used for readability reasons. After testing the site on a phone, I realized that the Cursiv font was really difficult to read. So I opted for the more readable Roboto font, as I felt that the accessibility to the information was more important than the aesthetics and feel of handwriting.
-  The Serif font was chosen for the headlines because I find its combination with the Cursiv font pleasant. Moreover, this combination gives, in my opinion, a clean look with an artistic touch.
+  The Cursive font was chosen for the body text on large and medium-sized screens because it gives the impression of handwriting, which I suppose is attractive to people looking for manual activities. For small screens such as phones, the Roboto font was used for readability reasons. After testing the site on a phone, I realized that the Cursive font was difficult to read. I therefore opted for the more readable Roboto font, as I felt that the accessibility to the information was more important than the aesthetics and feel of handwriting.
+  The Serif font was chosen for the headlines because I find its combination with the Cursive font pleasant. Moreover, this combination gives, in my opinion, a clean look with an artistic touch.
 
 - ### Interactivity, animations and geometric shapes
   Little interactivity and animation were added to the website to keep it simple and relaxing. Some shapes containing phrases from famous artists were displayed in a non-straight position to attract readers' attention, but the site was kept simple.
@@ -131,7 +134,7 @@ The purpose of this page is to introduce Cripulette crochet (section "about"), t
 
 - ### Courses & Calendar pages
 The Courses page consists of a header, followed by a cover with a background image, 3 sections and a footer.
-The purpose of this page is to present the courses and workshops offered by Cripulette Crochet. The last section is a link to a google calendar where users can find the courses in a calendar layout.
+The purpose of this page is to present the courses and workshops offered by Cripulette Crochet. The last section is a link to a google calendar were users can find the courses in a calendar layout.
 
 <details>
 <summary>Pictures of the Courses and Calendar pages here</summary>
@@ -140,7 +143,7 @@ The purpose of this page is to present the courses and workshops offered by Crip
 
 - ### Gallery page
 The Gallery page consists of a header, followed by a div containing images and a footer.
-The purpose of this page is to show various crochet creation to give inspiration and motivation to the users.
+The purpose of this page is to show various crochet creations to give inspiration and motivation to the users.
 
 <details>
 <summary>Picture of the Gallery page here</summary>
@@ -149,7 +152,7 @@ The purpose of this page is to show various crochet creation to give inspiration
 
 - ### Contact page
 The contact page consists of a header, followed by two sections and a footer.
-The purpose of this page is to allow the user to send a message and find the location of courses and workshops using the google map.
+The purpose of this page is to allow the user to send a message and find the localisation of the courses and workshops using the google map.
 
 <details>
 <summary>Picture of the Contact page here</summary>
@@ -161,7 +164,7 @@ The purpose of the navigation bar and footer is to allow the user to navigate ea
 
 ## Responsiveness
 The website is designed to be suitable for all devices. For example, the responsive navigation bar turns into a burger button for phone screens.
-Similarly, the text in some sections has been modified to suit the screen size. This was done to provide more complete information for computer users while allowing phone users to focus on the main information.
+Moreover, the text in some sections has been modified to suit the screen size. This was done to provide more complete information for computer users while allowing phone users to focus on the main information.
 <h3 align="center"><img src="assets/images/Picture-readme/Burger.png"></h3>
 
 ## Animations
@@ -176,7 +179,6 @@ Care has been taken to position the elements in the different screen sizes. In t
 <h3 align="center"><img src="assets/images/Picture-readme/Position-geometric-forms.png"></h3>
     
 # Technologies used
-
 ## Languages used
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)  
@@ -184,6 +186,10 @@ Care has been taken to position the elements in the different screen sizes. In t
 
 ## Frameworks, Libraries & Programs used
 - [Google Fonts](https://fonts.google.com/) | used to  import the 'Roboto' font
+
+- [Google Maps](https://www.google.co.uk/maps) | used to display a map
+
+- [Google Calendar](https://calendar.google.com/) | used to display a calendar
 
 - [Font Awesome](https://fontawesome.com/) | used to add icons representing social media in the footer
 
@@ -203,7 +209,7 @@ Care has been taken to position the elements in the different screen sizes. In t
 
 - [Word](https://en.wikipedia.org/wiki/Microsoft_Word) | used to correct the grammar
 
-- [am I responsive?](http://ami.responsivedesign.is/) | used to look at the responsveness of the website and to present an introductory picture in the readme file
+- [am I responsive?](http://ami.responsivedesign.is/) | used to look at the responsiveness of the website and to present an introductory picture in the readme file
 
 - [W3C Markup Validation Service](https://validator.w3.org/) | used to check the validity of the HTML code
 
@@ -225,13 +231,13 @@ Care has been taken to position the elements in the different screen sizes. In t
    I was inspired by these palettes because they give an overall sense of calm and the addition of the color orange stimulates curiosity and therefore creativity.
 
 - ### Sections of the webpage
-   The "4 good reasons to learn crochet" section and gallery were inspired by a walkthrought project with [code institute](https://codeinstitute.net/) called love running.
+   The "4 good reasons to learn crochet" section and gallery were inspired by a walkthrough project with [code institute](https://codeinstitute.net/) called love running.
 
 - ### Website content
    Some of the content of the website was inspired by [ammoniteyarns](https://www.ammoniteyarns.co.uk/).
 
 ## Code credits
-[code institute](https://codeinstitute.net/) - Parts of the code throughout the website have been adapted from the courses, the walkthrought project called love running and the [SampleREADME](https://github.com/Code-Institute-Solutions/SampleREADME).
+[code institute](https://codeinstitute.net/) - Parts of the code throughout the website have been adapted from the courses, the walkthrough project called love running and the [SampleREADME](https://github.com/Code-Institute-Solutions/SampleREADME).
 
 [Udemy course by Enzo Ustariz](https://www.skillshare.com/classes/10-techniques-%C3%A0-conna%C3%AEtre-en-CSS/2090817304) - Some codes for positioning the elements have been adapted from this course.
 
@@ -242,7 +248,7 @@ Care has been taken to position the elements in the different screen sizes. In t
 
 ## Read me file credits
 As this is the first 'Readme' file I have ever written, I've read files of many students who were kind enough to share their first projects.
-The 'Readme' file from [LogisticBravo](https://github.com/LogisticBravo/Milestone_Project-1-3DPrintQ) was a great source of inspiration. Ihave also used the template from [othneildrew](https://github.com/othneildrew/Best-README-Template) and as well as one from [Code Institute](https://github.com/Code-Institute-Solutions/readme-template)
+The 'Readme' file from [LogisticBravo](https://github.com/LogisticBravo/Milestone_Project-1-3DPrintQ) was a great source of inspiration. I have also used the template from [othneildrew](https://github.com/othneildrew/Best-README-Template) and as well as one from [Code Institute](https://github.com/Code-Institute-Solutions/readme-template).
 
 ## Pictures credits
 Pictures were taken from [Pixabay](https://pixabay.com/) and [Unsplash](https://unsplash.com/). The backgroung picture was taken from [Toptal](https://www.toptal.com/designers/subtlepatterns/?s=striped_lens).
@@ -276,21 +282,21 @@ citations: [ACNNJ](https://artcenter-nnj.org/10-famous-quotes-about-art/)
 On 25 July 2021, all pages were checked with [W3C Markup Validation Service](https://validator.w3.org/) and [W3C CSS Validation service](https://jigsaw.w3.org/css-validator/) and no error were found.
 However, the code has been tested before and found to have issues. 
 With regard to the verification of the HTML code, two duplicate tags had to be removed and the iframe tags used to link google mag and google calendar had to be corrected, as advised by the [W3C Markup Validation Service](https://validator.w3.org/).
-The css checker revealed an erroneous link to google fonts which has now been removed.
+The css checker revealed an erroneous link to google fonts which has been removed.
 
 ## Test on browsers
-The Website was tested on computers using the browsers :
-    - [Google Chrome](https://en.wikipedia.org/wiki/Google_Chrome)
-    - [Firefox](https://en.wikipedia.org/wiki/Firefox) 
-    - [internet explorer](https://en.wikipedia.org/wiki/Internet_Explorer)
-    - [Microsoft edge](https://en.wikipedia.org/wiki/Microsoft_Edge)
-    - [Safary](https://en.wikipedia.org/wiki/Safari_(software))
+The website was tested on computers using the browsers:
+- [Google Chrome](https://en.wikipedia.org/wiki/Google_Chrome)
+- [Firefox](https://en.wikipedia.org/wiki/Firefox) 
+- [internet explorer](https://en.wikipedia.org/wiki/Internet_Explorer)
+- [Microsoft edge](https://en.wikipedia.org/wiki/Microsoft_Edge)
+- [Safary](https://en.wikipedia.org/wiki/Safari_(software))
 
 ## Test on devices
-[Chrome DevTools](https://developer.chrome.com/docs/devtools/) was used to see the how the site look like on various phones and tablets and after deployment, the website was tested on various phones: iphone11, iphone10, Samsung Gallary S3.
+[Chrome DevTools](https://developer.chrome.com/docs/devtools/) was used to see the how the site looks like on various phones and tablets and after deployment. Additionally, the website was tested on various phones: iphone11, iphone10, Samsung Galaxy A3.
 
 # Deployment
-The website has been deployed with github.
+The website has been deployed with github. The project was stored in github.
 - In the Github repository:
     - Go to Settings
     - Then GitHub Pages
@@ -305,16 +311,16 @@ The website has been deployed with github.
     It took me a long time to decide on the theme because I hesitated between continuing a previous project on language learning and starting a new project from scratch. After starting using my previous project, I finally changed my mind and started a new project. The reason is that in order to learn well, I thought (and still think) that it is very formative to do the project from scratch so that I don't skip any steps and make sure that I have integrated the information. Nevertheless, this back and forth has caused me to spend time on a project I am not using now and I think I should have started directly with the new project.
 
 - ### Starting to code
-    I was very keen to get my project off the ground quickly. Thus, after having decided on my new project, I designed the Wireframe and really rapidly started to code. I received the very justified remark that I used a lot of ids and that it might be better to limit the number of ids especially when working in a team. I realized that I could have taken more time at the beginning of the project to reflexting on how I could organize the code as well as reflexting in advance about classes that could be used for similar elements. I think this would have resulted in cleaner code. 
+    I was very keen to get my project off the ground quickly. Thus, after having decided on my new project, I designed the Wireframe and really rapidly started to code. I received the very justified remark that I used a lot of ids and that it might be better to limit the number of ids especially when working in a team. I realized that I could have taken more time at the beginning of the project reflecting on how I could organize the code as well as reflecting in advance about classes that could be used for similar elements. I think this would have resulted in cleaner code. 
 
-- ### Order for writting the code for the project
-    Rather instinctively, I coded the site for widescreen and then worked on making it responsive. I could have done the responsiveness in parallel with the coding for the large screens as my mentor pointed out to me very well. It is true that this could have avoided making changes for the phones that affected the layout of the elements for the large screens.
+- ### Order for writing the code for the project
+    Rather instinctively, I coded the site for widescreens and then worked on making it responsive. I could have done the responsiveness in parallel with the coding for the large screens as my mentor pointed out to me very well. It is true that this could have avoided making changes for the phones that affected the layout of the elements for the large screens.
 
 ## Fonts
-The original fonts chosen from the google font site were: 'Sacramento' and 'Josefin Slab'. However, I made a mistake when I copied the link, and did not work with these fonts. I realised towards the end of the project the error, corrected the link but realised I preferred the previous fonts and so deleted the link for the 'Sacramento' and 'Josefin Slab' fonts. I honestly think I should have seen this error earlier or at least checked that I was using the correct font at an earlier stage.
+The original fonts chosen from the google font site were: 'Sacramento' and 'Josefin Slab'. However, I made a mistake when I copied the link, and did not work with these fonts. I realized towards the end of the project the error, corrected the link but realized I preferred the previous fonts and so deleted the link for the 'Sacramento' and 'Josefin Slab' fonts. I honestly think I should have seen this error earlier or at least checked that I was using the correct font at an earlier stage.
 
 ## Small modification from the wireframe
-The wireframe designed for the project was not followed 100%. One of the reasons is that after coding to follow the wireframe, I realised that in my opinion it does not look nice or clean. For example, the section workshop (in the page courses) for the central screen had originally planned to keep all three workshops on the same line. However, as the text is a bit long, this was not aesthetically pleasing and so I put only one workshop on each line for the medium sized screens. Other changes were made to the burger menu for the phone and the link to the google calendar. These changes were made following a meeting with my mentor who advised me to use them and as I thought the ideas were really relevant, I followed them. 
+The wireframe designed for the project was not followed 100%. One of the reasons is that after coding to follow the wireframe, I realised that in my opinion it did not look nice or clean. An example is the workshop section (in the webpage "Courses") for the middel size screens. It was planned planned to keep the three workshops on the same line. However, as the text is a bit long, this was not aesthetically pleasing and I thus decided to put only one workshop on each line. Other changes were made to the burger menu for the phones and the link to the google calendar. These changes were made following a meeting with my mentor who advised me to use them and as I thought the ideas were relevant I followed them.
 
 ## Design 
 While doing this project I thought a lot about the web design profession and had a lot of admiration for their work. I did my best to code a website to look nice but I am sure it could have been improved by a web designer. 
@@ -322,17 +328,17 @@ While doing this project I thought a lot about the web design profession and had
 # Conclusion
 This project has deepened and consolidated my knowledge of HTML and CSS. I also hope that it shows that I have a good foundation in these languages.
 
-Having previous knowledge of coding language for analysing data from a scientific background + basic knowledge of CSS using mostly bootstrap, I was naïve enough to expect to handle CSS quickly. However, I found that although the logic of CSS seemed easy at first, the reality of using it and controlling all the elements was quite complex. It requires, in my opinion, a very good knowledge of a huge amount of CSS codes, which is good, because I know that CSS offers a lot of possibilities that I haven't explored yet and I am always eager to learn more.
+Having previous knowledge of coding language for analyzing data from a scientific background + basic knowledge of CSS using mostly bootstrap, I was naïve enough to expect to handle CSS quickly. However, I found that although the logic of CSS seemed easy at first, the reality of using it and controlling all the elements was quite complex. It requires, in my opinion, a very good knowledge of a huge amount of CSS codes, which is good, because I know that CSS offers a lot of possibilities that I haven't explored yet and I am always eager to learn more.
 
-I also found that in order to run the project smoothly, it is important to have a very good overview of the project before starting to code and throughout the project. I hope to improve the start of the next project and get a smoother evolution of the project.
+I also found that to run the project smoothly, it is important to have a very good overview of the project before starting to code and throughout the project. I hope to improve the start of the next project and get a smoother evolution of the project.
 
 Overall, I had fun coding this project, trying to promote a manual activity with media and, of course, I learned a lot, which was the main goal of this project. 
 
-# Acknowlegments
+# Acknowledgments
 - My mentor, Nishant Kumar, for giving me the direction to start the project, for guiding me through the project, for giving me the idea to implement new features and for giving me feedback.
 
-- Andras Rab for the suggestions to improve the design.
+- Andras Raab for the suggestions to improve the design.
 
 - The Slack community for clarifying certain concepts, sharing tips and links and, of course, for always helping me with the codes.
 
-- Code institutes student support for giving clear advice on the project when I was unsure of the theme and expectations.
+- Code institutes student care for giving me clear advice on the project when I was unsure of the theme and expectations.
