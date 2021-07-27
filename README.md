@@ -16,7 +16,7 @@ To do this, I invented a small business that offers courses and workshops to lea
 
 [Target audience](#target-audience)  
 
-[User Experience (UX)](#user-experience-(UX))
+[User Experience](#user-experience)
 - [User stories](#user-stories)
 - [Visitor Goals](#visitor-goals)
 - [Main design choices](#main-design-choices)
@@ -24,18 +24,18 @@ To do this, I invented a small business that offers courses and workshops to lea
 
 [Features](#features)  
 - [Composition of the website](#composition-of-the-website)
-- [Responsiveness](#Responsiveness)
-- [Animations](#Animations)
+- [Responsiveness](#responsiveness)
+- [Animations](#animations)
 - [Position of elements and geometric shapes](#position-of-elements-and-geometric-shapes)
 
 [Technologies used](#technologies-used)
 - [Languages used](#languages-used)
-- [Frameworks, Libraries & Programs used](#frameworks,-libraries-&-programs-used)
+- [Frameworks and Programs used](#frameworks-and-programs-used)
 
 [Credits](#credits)
 - [Inspiration credits](#inspiration-credits)
 - [Code credits](#code-credits)
-- [Read me file credits](#Read-me-file-credits)
+- [Read me file credits](#read-me-file-credits)
 - [Pictures credits](#pictures-credits)
 - [General websites credits](#general-websites-credits)
 
@@ -65,7 +65,7 @@ The target audience of Cripulette Crochet is adults who crochet or want to learn
 
 I expect this site to be exchanged between "crocheters" by sending the link to each other as word of mouth is important among crocheters. However, the site is also aimed at people who are looking for crochet classes/workshops in their neighborhood, even if they don't know anyone.
 
-# User Experience (UX)
+# User Experience
 
 ## User stories
 The target users are adults who enjoy doing crafts such as crocheting, knitting and sewing. They are likely to have some of the following characteristics:
@@ -184,7 +184,7 @@ Care has been taken to position the elements in the different screen sizes. In t
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)  
 -   [js](https://en.wikipedia.org/wiki/JavaScript)  
 
-## Frameworks, Libraries & Programs used
+## Frameworks and Programs used
 - [Google Fonts](https://fonts.google.com/) | used to  import the 'Roboto' font
 
 - [Google Maps](https://www.google.co.uk/maps) | used to display a map
