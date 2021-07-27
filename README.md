@@ -133,8 +133,8 @@ The purpose of this page is to introduce Cripulette crochet (section "about"), t
 </details>
 
 - ### Courses & Calendar pages
-The Courses page consists of a header, followed by a cover with a background image, 3 sections and a footer.
-The purpose of this page is to present the courses and workshops offered by Cripulette Crochet. The last section is a link to a google calendar were users can find the courses in a calendar layout.
+The Courses page consists of a header, followed by a cover with a background image, 3 sections and a footer. Before each section, there is a separation containing a sentence by a famous person.
+The purpose of this page is to present the courses and workshops offered by Cripulette Crochet. The last section is a link to a google calendar  were users can find the courses in a calendar layout. The page with the calendar consist od a header, followed by a div to display the calendar and a footer. This page opens in a new tab to allow the user to navigate easily.
 
 <details>
 <summary>Pictures of the Courses and Calendar pages here</summary>
@@ -152,7 +152,7 @@ The purpose of this page is to show various crochet creations to give inspiratio
 
 - ### Contact page
 The contact page consists of a header, followed by two sections and a footer.
-The purpose of this page is to allow the user to send a message and find the localisation of the courses and workshops using the google map.
+The purpose of this page is to allow the users to send a message and find the localisation of the courses and workshops using google map.
 
 <details>
 <summary>Picture of the Contact page here</summary>
@@ -293,7 +293,7 @@ The website was tested on computers using the browsers:
 - [Safary](https://en.wikipedia.org/wiki/Safari_(software))
 
 ## Test on devices
-[Chrome DevTools](https://developer.chrome.com/docs/devtools/) was used to see the how the site looks like on various phones and tablets and after deployment. Additionally, the website was tested on various phones: iphone11, iphone10, Samsung Galaxy A3.
+[Chrome DevTools](https://developer.chrome.com/docs/devtools/) was used to see how the site looks like on various phones and tablets. Additionally, after deployement the website was tested on various phones: iphone11, iphone10, Samsung Galaxy A3.
 
 # Deployment
 The website has been deployed with github. The project was stored in github.
@@ -308,10 +308,10 @@ The website has been deployed with github. The project was stored in github.
 # What could have been made better 
 ## Organization before starting to code
 - ### Finding a theme 
-    It took me a long time to decide on the theme because I hesitated between continuing a previous project on language learning and starting a new project from scratch. After starting using my previous project, I finally changed my mind and started a new project. The reason is that in order to learn well, I thought (and still think) that it is very formative to do the project from scratch so that I don't skip any steps and make sure that I have integrated the information. Nevertheless, this back and forth has caused me to spend time on a project I am not using now and I think I should have started directly with the new project.
+    It took me a long time to decide on the theme because I hesitated between continuing a previous project on language learning and starting a new project from scratch. After starting using my previous project, I finally changed my mind and started a new project. The reason is that in order to learn well, I thought (and still think) that it is very formative to do the project from scratch so that I understand well the basics of building a website in HTML and CSS. Nevertheless, this back and forth has caused me to spend time on a project I am not using now and I think I should have started directly with the new project.
 
 - ### Starting to code
-    I was very keen to get my project off the ground quickly. Thus, after having decided on my new project, I designed the Wireframe and really rapidly started to code. I received the very justified remark that I used a lot of ids and that it might be better to limit the number of ids especially when working in a team. I realized that I could have taken more time at the beginning of the project reflecting on how I could organize the code as well as reflecting in advance about classes that could be used for similar elements. I think this would have resulted in cleaner code. 
+    I was very keen to get my project off the ground quickly. Thus, after having decided on my new project, I designed the Wireframe and really rapidly started to code. I received the very justified remark that I used a lot of ids and that it might be better to limit the number of ids especially when working in a team. I realized that I could have taken more time at the beginning of the project reflecting on how I could organize the code as well as reflecting in advance about classes that could be used for similar elements. I believe this would have resulted in cleaner code. 
 
 - ### Order for writing the code for the project
     Rather instinctively, I coded the site for widescreens and then worked on making it responsive. I could have done the responsiveness in parallel with the coding for the large screens as my mentor pointed out to me very well. It is true that this could have avoided making changes for the phones that affected the layout of the elements for the large screens.
@@ -320,7 +320,7 @@ The website has been deployed with github. The project was stored in github.
 The original fonts chosen from the google font site were: 'Sacramento' and 'Josefin Slab'. However, I made a mistake when I copied the link, and did not work with these fonts. I realized towards the end of the project the error, corrected the link but realized I preferred the previous fonts and so deleted the link for the 'Sacramento' and 'Josefin Slab' fonts. I honestly think I should have seen this error earlier or at least checked that I was using the correct font at an earlier stage.
 
 ## Small modification from the wireframe
-The wireframe designed for the project was not followed 100%. One of the reasons is that after coding to follow the wireframe, I realised that in my opinion it did not look nice or clean. An example is the workshop section (in the webpage "Courses") for the middel size screens. It was planned planned to keep the three workshops on the same line. However, as the text is a bit long, this was not aesthetically pleasing and I thus decided to put only one workshop on each line. Other changes were made to the burger menu for the phones and the link to the google calendar. These changes were made following a meeting with my mentor who advised me to use them and as I thought the ideas were relevant I followed them.
+The wireframe designed for the project was not followed 100%. One of the reasons is that after coding to follow the wireframe, I realised that in my opinion it did not look nice or clean. An example is the workshop section (in the webpage "Courses") for the middel size screens. It was planned to keep the three workshops on the same line. However, as the text is a bit long, this was not aesthetically pleasing and I thus decided to put only one workshop on each line. Other changes were the burger menu for the phones and the link to the google calendar. These changes were made following a meeting with my mentor who advised me to use them and as I thought the ideas were relevant I followed them.
 
 ## Design 
 While doing this project I thought a lot about the web design profession and had a lot of admiration for their work. I did my best to code a website to look nice but I am sure it could have been improved by a web designer. 
@@ -328,7 +328,7 @@ While doing this project I thought a lot about the web design profession and had
 # Conclusion
 This project has deepened and consolidated my knowledge of HTML and CSS. I also hope that it shows that I have a good foundation in these languages.
 
-Having previous knowledge of coding language for analyzing data from a scientific background + basic knowledge of CSS using mostly bootstrap, I was naïve enough to expect to handle CSS quickly. However, I found that although the logic of CSS seemed easy at first, the reality of using it and controlling all the elements was quite complex. It requires, in my opinion, a very good knowledge of a huge amount of CSS codes, which is good, because I know that CSS offers a lot of possibilities that I haven't explored yet and I am always eager to learn more.
+Having previous knowledge of coding language for analyzing data from a scientific background + basic knowledge of CSS using mostly bootstrap, I was expected to handle CSS quickly. However, I found that although the logic of CSS seemed easy at first, the reality of using it and controlling all the elements was quite complex. It requires, in my opinion, a deep attention to detail and a very good knowledge of a huge amount of CSS codes, which is good, because I know that CSS offers a lot of possibilities that I haven't explored yet and I am always eager to learn more.
 
 I also found that to run the project smoothly, it is important to have a very good overview of the project before starting to code and throughout the project. I hope to improve the start of the next project and get a smoother evolution of the project.
 
