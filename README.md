@@ -33,13 +33,13 @@ To do this, I invented a small business that offers courses and workshops to lea
 
 [Tests](#tests)
 - [Code validation and issues found](#code-validation-and-issues-found)
-- [Testing User Stories from User Experience Section](testing-user-stories-from-user-experience-section)
+- [Testing User Stories](#testing-user-stories)
 - [Test on browsers](#test-on-browsers)
 - [Test on devices](#test-on-devices)
 
 [Deployment](#deployment) 
-- [GitHub Pages](gitHub-pages)
-- [Making a Local Clone](making-a-local-clone)
+- [GitHub Pages](#github-pages)
+- [Making a Local Clone](#making-a-local-clone)
 
 [Credits](#credits)
 - [Inspiration credits](#inspiration-credits)
@@ -248,7 +248,7 @@ The code has been tested before and found to have issues.
 With regard to the verification of the HTML code, two duplicate tags had to be removed and the iframe tags used to link google map and google calendar had to be corrected, as advised by the [W3C Markup Validation Service](https://validator.w3.org/).
 The css checker revealed an erroneous link to google fonts which has been removed.
 
-## Testing User Stories from User Experience Section
+## Testing User Stories
 - ### First Time Visitor Goals
   - As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
     - In the homepage, there is a navigation bar to go to the page of one's choice. Underneath there is a cover image with balls of wool and a hook and the next section is about the organisation.
