@@ -18,8 +18,7 @@ To do this, I invented a small business that offers courses and workshops to lea
 
 [User Experience](#user-experience)
 - [User stories](#user-stories)
-- [Visitor Goals](#visitor-goals)
-- [Main design choices](#main-design-choices)
+- [Design](#design)
 - [Wireframes](#wireframes)
 
 [Features](#features)  
@@ -32,19 +31,22 @@ To do this, I invented a small business that offers courses and workshops to lea
 - [Languages used](#languages-used)
 - [Frameworks and Programs used](#frameworks-and-programs-used)
 
+[Tests](#tests)
+- [Code validation and issues found](#code-validation-and-issues-found)
+- [Testing User Stories from User Experience Section](testing-user-stories-from-user-experience-section)
+- [Test on browsers](#test-on-browsers)
+- [Test on devices](#test-on-devices)
+
+[Deployment](#deployment) 
+- [GitHub Pages](gitHub-pages)
+- [Making a Local Clone](making-a-local-clone)
+
 [Credits](#credits)
 - [Inspiration credits](#inspiration-credits)
 - [Code credits](#code-credits)
 - [Read me file credits](#read-me-file-credits)
 - [Pictures credits](#pictures-credits)
 - [General websites credits](#general-websites-credits)
-
-[Tests](#tests)
-- [Code validation and issues found](#code-validation-and-issues-found)
-- [Test on browsers](#test-on-browsers)
-- [Test on devices](#test-on-devices)
-
-[Deployment](#deployment) 
 
 [What could have been made better](#What-could-have-been-made-better)
 
@@ -65,10 +67,7 @@ The target audience of Cripulette Crochet is adults who crochet or want to learn
 
 I expect this site to be exchanged between "crocheters" by sending the link to each other as word of mouth is important among crocheters. However, the site is also aimed at people who are looking for crochet classes/workshops in their neighborhood, even if they don't know anyone.
 
-# User Experience
-
-## User stories
-The target users are adults who enjoy doing crafts such as crocheting, knitting and sewing. They are likely to have some of the following characteristics:
+Moreover, I expect the target users to be people doing crafts such as crocheting, knitting and sewing. They are likely to have some of the following characteristics:
 1. They like to create and express themselves through small pieces of art that they have created themselves.
 2. They are persistent in their work and are not afraid to spend time on a project to complete it.
 3. They are patient and enjoy spending hours doing activities in a quiet environment. 
@@ -80,13 +79,25 @@ This last point made me raise an interesting question: How do you attract people
 
 So, I built the site with this in mind and made design choices that seemed relevant to allow users to feel in a calm and welcoming environment when browsing the site.
 
-## Visitor Goals
-1. To feel calm and stay relax.
-2. Find the offers/information rapidly.
-3. Get motivation and inspiration even if the user does not register for a course.
-4. That the user like the website and offers enough to share it with friends. 
+# User Experience
+## User stories
+- ### First Time Visitor Goals
+  - As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+  - As a First Time Visitor, I want to easily find the offer for courses and workshops.
+  - As a First Time Visitor, I want to get motivation and inspiration.
+  - As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+  - As a First Time Visitor, I want to access the site across a range of devices.
 
-## Main design choices
+- ### Returning Visitor Goals
+  - As a Returning Visitor, I want to find where the courses and workshops take place.
+  - As a Returning Visitor, I want to find how to contact the organisation with any questions I may have.
+  - As a Returning Visitor, I want to find community links.
+
+- ### Frequent User Goals
+  - As a Frequent User, I want to check to see if there are any newly added courses and workshops.
+  - As a Frequent User, I want to check to see if there are any newly added Images.
+
+## Design
 - ### Theme Colors
   Theme colors were inspired from palettes that offer a calm feeling (details in credits) while stimulating the curiosity and thus the creativity by adding Yellow-Orange colors.
 
@@ -119,7 +130,6 @@ So, I built the site with this in mind and made design choices that seemed relev
 to add a link here
 
 # Features 
-
 ## Composition of the website
 The site is structured in 4 web pages with a link on the navbar + 1 page (calendar) accessible only from the "Courses" page. Some links have been strategically placed to allow easy navigation to the relevant sub-sections. e.g. Weekly courses button on the homepage.
 
@@ -134,7 +144,7 @@ The purpose of this page is to introduce Cripulette crochet (section "about"), t
 
 - ### Courses & Calendar pages
 The Courses page consists of a header, followed by a cover with a background image, 3 sections and a footer. Before each section, there is a separation containing a sentence by a famous person.
-The purpose of this page is to present the courses and workshops offered by Cripulette Crochet. The last section is a link to a google calendar  were users can find the courses in a calendar layout. The page with the calendar consist od a header, followed by a div to display the calendar and a footer. This page opens in a new tab to allow the user to navigate easily.
+The purpose of this page is to present the courses and workshops offered by Cripulette Crochet. The last section is a link to a google calendar where users can find the courses in a calendar layout. The page with the calendar consists of a header, followed by a div to display the calendar and a footer. This page opens in a new tab to allow the user to navigate easily.
 
 <details>
 <summary>Pictures of the Courses and Calendar pages here</summary>
@@ -152,7 +162,7 @@ The purpose of this page is to show various crochet creations to give inspiratio
 
 - ### Contact page
 The contact page consists of a header, followed by two sections and a footer.
-The purpose of this page is to allow the users to send a message and find the localisation of the courses and workshops using google map.
+The purpose of this page is to allow the users to send a message and find the localization of the courses and workshops using google map.
 
 <details>
 <summary>Picture of the Contact page here</summary>
@@ -223,6 +233,81 @@ Care has been taken to position the elements in the different screen sizes. In t
 
 - [DeepL](https://www.deepl.com/) |  used to translate words from French to English and to write the content of the website and the 'Read me' file
 
+# Tests
+## Code validation and issues found
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+- [W3C Markup Validation Homepage | Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Flaurepiechaczyk.github.io%2Fproject1_code_institute_Laure_Piechaczyk%2Findex.html)
+- [W3C Markup Validation Courses | Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Flaurepiechaczyk.github.io%2Fproject1_code_institute_Laure_Piechaczyk%2Fcourses.html)
+- [W3C Markup Validation Gallery | Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Flaurepiechaczyk.github.io%2Fproject1_code_institute_Laure_Piechaczyk%2Fgallery.html)
+- [W3C Markup Validation Contact | Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Flaurepiechaczyk.github.io%2Fproject1_code_institute_Laure_Piechaczyk%2Fcontact.html)
+- [W3C Markup Validation Calendar | Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Flaurepiechaczyk.github.io%2Fproject1_code_institute_Laure_Piechaczyk%2Fcalendar.html)
+
+- [W3C CSS Validator | Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flaurepiechaczyk.github.io%2Fproject1_code_institute_Laure_Piechaczyk%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=fr)
+
+The code has been tested before and found to have issues. 
+With regard to the verification of the HTML code, two duplicate tags had to be removed and the iframe tags used to link google map and google calendar had to be corrected, as advised by the [W3C Markup Validation Service](https://validator.w3.org/).
+The css checker revealed an erroneous link to google fonts which has been removed.
+
+## Testing User Stories from User Experience Section
+- ### First Time Visitor Goals
+  - As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+    - In the homepage, there is a navigation bar to go to the page of one's choice. Underneath there is a cover image with balls of wool and a hook and the next section is about the organisation.
+    - At the end of the homepage there are links to go directly to the courses and workshops.
+  - As a First Time Visitor, I want to easily find the offer for courses and workshops.
+    - There is a dedicated web page for this purpose, which can be accessed via the navigation bar.
+  - As a First Time Visitor, I want to get motivation and inspiration.
+    - Many photos of creations are displayed and the gallery page is dedicated to the presentation of crochet creations.
+  - As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+    - The site has been designed to be fluid and intuitive. At the top of each page is a clean navigation bar, each link clearly describes the page it leads to.
+  - As a First Time Visitor, I want to access the site across a range of devices.
+    - The website is designed to be suitable for all devices.
+
+- ### Returning Visitor Goals
+  - As a Returning Visitor, I want to find where the courses and workshops take place.
+      -  In the footer, the address is written and a link to the map with the location is displayed. The contact page contains the map with the location of the company. 
+  - As a Returning Visitor, I want to find how to contact the organisation with any questions I may have.
+    - In the footer, an email address is displayed and the contact page contains a form to contact the company.
+  - As a Returning Visitor, I want to find community links.
+    - The footer contains links to Facebook, Twitter and Instagram pages.
+
+- ### Frequent User Goals
+  - As a Frequent User, I want to check to see if there are any newly added courses and workshops.
+    - The user is already familiar with the layout of the website and can easily find the courses and workshops.
+  - As a Frequent User, I want to check to see if there are any newly added Images.
+    - The user is already familiar with the layout of the website and can easily access the gallery page.
+
+
+## Test on browsers
+The website was tested on computers using the browsers:
+- [Google Chrome](https://en.wikipedia.org/wiki/Google_Chrome)
+- [Firefox](https://en.wikipedia.org/wiki/Firefox) 
+- [internet explorer](https://en.wikipedia.org/wiki/Internet_Explorer)
+- [Microsoft edge](https://en.wikipedia.org/wiki/Microsoft_Edge)
+- [Safary](https://en.wikipedia.org/wiki/Safari_(software))
+
+## Test on devices
+[Chrome DevTools](https://developer.chrome.com/docs/devtools/) was used to see how the site looks like on various phones and tablets. Additionally, after deployment the website was tested on various phones: iphone11, iphone10, Samsung Galaxy A3.
+
+# Deployment
+## GitHub Pages
+The website has been deployed with GitHub. The project was stored in GitHub.
+- In the GitHub repository:
+    - Go to Settings
+    - Then GitHub Pages
+    - Select Branch main
+    - Save
+    - Visit the website by following the link
+<h3 align="center"><img src="assets/images/Picture-readme/Deployment.png"></h3>
+
+## Making a Local Clone
+- Log in to GitHub and locate the GitHub Repository.
+- Click the Code drop down menu.
+- Either download the ZIP file, unpackage locally and open with IDE OR to clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+- Open Git Bash
+- Change the current working directory to the location where you want the cloned directory to be made
+- Type git clone, and then paste the URL you copied.
+- Press Enter. Your local clone will be created.
+
 # Credits
 ## Inspiration credits
 - ### Theme Colors
@@ -277,34 +362,6 @@ Pictures were taken from [Pixabay](https://pixabay.com/) and [Unsplash](https://
 ## General websites credits
 citations: [ACNNJ](https://artcenter-nnj.org/10-famous-quotes-about-art/)
 
-# Tests
-## Code validation and issues found
-On 25 July 2021, all pages were checked with [W3C Markup Validation Service](https://validator.w3.org/) and [W3C CSS Validation service](https://jigsaw.w3.org/css-validator/) and no error were found.
-However, the code has been tested before and found to have issues. 
-With regard to the verification of the HTML code, two duplicate tags had to be removed and the iframe tags used to link google mag and google calendar had to be corrected, as advised by the [W3C Markup Validation Service](https://validator.w3.org/).
-The css checker revealed an erroneous link to google fonts which has been removed.
-
-## Test on browsers
-The website was tested on computers using the browsers:
-- [Google Chrome](https://en.wikipedia.org/wiki/Google_Chrome)
-- [Firefox](https://en.wikipedia.org/wiki/Firefox) 
-- [internet explorer](https://en.wikipedia.org/wiki/Internet_Explorer)
-- [Microsoft edge](https://en.wikipedia.org/wiki/Microsoft_Edge)
-- [Safary](https://en.wikipedia.org/wiki/Safari_(software))
-
-## Test on devices
-[Chrome DevTools](https://developer.chrome.com/docs/devtools/) was used to see how the site looks like on various phones and tablets. Additionally, after deployement the website was tested on various phones: iphone11, iphone10, Samsung Galaxy A3.
-
-# Deployment
-The website has been deployed with github. The project was stored in github.
-- In the Github repository:
-    - Go to Settings
-    - Then GitHub Pages
-    - Select Branch main
-    - Save
-    - Visit the website by following the link
-<h3 align="center"><img src="assets/images/Picture-readme/Deployment.png"></h3>
-
 # What could have been made better 
 ## Organization before starting to code
 - ### Finding a theme 
@@ -320,7 +377,7 @@ The website has been deployed with github. The project was stored in github.
 The original fonts chosen from the google font site were: 'Sacramento' and 'Josefin Slab'. However, I made a mistake when I copied the link, and did not work with these fonts. I realized towards the end of the project the error, corrected the link but realized I preferred the previous fonts and so deleted the link for the 'Sacramento' and 'Josefin Slab' fonts. I honestly think I should have seen this error earlier or at least checked that I was using the correct font at an earlier stage.
 
 ## Small modification from the wireframe
-The wireframe designed for the project was not followed 100%. One of the reasons is that after coding to follow the wireframe, I realised that in my opinion it did not look nice or clean. An example is the workshop section (in the webpage "Courses") for the middel size screens. It was planned to keep the three workshops on the same line. However, as the text is a bit long, this was not aesthetically pleasing and I thus decided to put only one workshop on each line. Other changes were the burger menu for the phones and the link to the google calendar. These changes were made following a meeting with my mentor who advised me to use them and as I thought the ideas were relevant I followed them.
+The wireframe designed for the project was not followed 100%. One of the reasons is that after coding to follow the wireframe, I realized that in my opinion it did not look nice or clean. An example is the workshop section (in the webpage "Courses") for the middle size screens. It was planned to keep the three workshops on the same line. However, as the text is a bit long, this was not aesthetically pleasing and I thus decided to put only one workshop on each line. Other changes were the burger menu for the phones and the link to the google calendar. These changes were made following a meeting with my mentor who advised me to use them and as I thought the ideas were relevant I followed them.
 
 ## Design 
 While doing this project I thought a lot about the web design profession and had a lot of admiration for their work. I did my best to code a website to look nice but I am sure it could have been improved by a web designer. 
@@ -328,7 +385,7 @@ While doing this project I thought a lot about the web design profession and had
 # Conclusion
 This project has deepened and consolidated my knowledge of HTML and CSS. I also hope that it shows that I have a good foundation in these languages.
 
-Having previous knowledge of coding language for analyzing data from a scientific background + basic knowledge of CSS using mostly bootstrap, I was expected to handle CSS quickly. However, I found that although the logic of CSS seemed easy at first, the reality of using it and controlling all the elements was quite complex. It requires, in my opinion, a deep attention to detail and a very good knowledge of a huge amount of CSS codes, which is good, because I know that CSS offers a lot of possibilities that I haven't explored yet and I am always eager to learn more.
+Having previous knowledge of coding language for analyzing data from a scientific background + basic knowledge of CSS using mostly bootstrap, I expected to handle CSS quickly. However, I found that although the logic of CSS seemed easy at first, the reality of using it and controlling all the elements was quite complex. It requires, in my opinion, a deep attention to details and a very good knowledge of a huge amount of CSS codes. It is motivating, because I know that CSS offers a lot of possibilities that I haven't explored yet and I am always eager to learn more.
 
 I also found that to run the project smoothly, it is important to have a very good overview of the project before starting to code and throughout the project. I hope to improve the start of the next project and get a smoother evolution of the project.
 
