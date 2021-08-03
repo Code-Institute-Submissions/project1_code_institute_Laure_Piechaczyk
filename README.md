@@ -19,7 +19,6 @@ To do this, I invented a small business that offers courses and workshops to lea
 [User Experience](#user-experience)
 - [User stories](#user-stories)
 - [Design](#design)
-- [Wireframes](#wireframes)
 
 [Features](#features)  
 - [Composition of the website](#composition-of-the-website)
@@ -126,8 +125,6 @@ So, I built the site with this in mind and made design choices that seemed relev
 - ### Border-radius
   The radii of the edges have been rounded to give a more tranquil feel.
 
-## Wireframes
-to add a link here
 
 # Features 
 ## Composition of the website
@@ -333,7 +330,7 @@ The website has been deployed with GitHub. The project was stored in GitHub.
 
 ## Read me file credits
 As this is the first 'Readme' file I have ever written, I've read files of many students who were kind enough to share their first projects.
-The 'Readme' file from [LogisticBravo](https://github.com/LogisticBravo/Milestone_Project-1-3DPrintQ) was a great source of inspiration. I have also used the template from [othneildrew](https://github.com/othneildrew/Best-README-Template) and as well as one from [Code Institute](https://github.com/Code-Institute-Solutions/readme-template).
+The 'Readme' file from [LogisticBravo](https://github.com/LogisticBravo/Milestone_Project-1-3DPrintQ) was a great source of inspiration. I have also used the template from [othneildrew](https://github.com/othneildrew/Best-README-Template) as well as one from [Code Institute](https://github.com/Code-Institute-Solutions/readme-template).
 
 ## Pictures credits
 Pictures were taken from [Pixabay](https://pixabay.com/) and [Unsplash](https://unsplash.com/). The backgroung picture was taken from [Toptal](https://www.toptal.com/designers/subtlepatterns/?s=striped_lens).
@@ -377,7 +374,7 @@ citations: [ACNNJ](https://artcenter-nnj.org/10-famous-quotes-about-art/)
 The original fonts chosen from the google font site were: 'Sacramento' and 'Josefin Slab'. However, I made a mistake when I copied the link, and did not work with these fonts. I realized towards the end of the project the error, corrected the link but realized I preferred the previous fonts and so deleted the link for the 'Sacramento' and 'Josefin Slab' fonts. I honestly think I should have seen this error earlier or at least checked that I was using the correct font at an earlier stage.
 
 ## Small modification from the wireframe
-The wireframe designed for the project was not followed 100%. One of the reasons is that after coding to follow the wireframe, I realized that in my opinion it did not look nice or clean. An example is the workshop section (in the webpage "Courses") for the middle size screens. It was planned to keep the three workshops on the same line. However, as the text is a bit long, this was not aesthetically pleasing and I thus decided to put only one workshop on each line. Other changes were the burger menu for the phones and the link to the google calendar. These changes were made following a meeting with my mentor who advised me to use them and as I thought the ideas were relevant I followed them.
+The wireframe I had designed for the project was not followed 100%. One of the reasons is that after coding to follow my wireframe, I realized that in my opinion it did not look nice or clean. An example is the workshop section (in the webpage "Courses") for the middle size screens. It was planned to keep the three workshops on the same line. However, as the text is a bit long, this was not aesthetically pleasing and I thus decided to put only one workshop on each line. Other changes were the burger menu for the phones and the link to the google calendar. These changes were made following a meeting with my mentor who advised me to use them and as I thought the ideas were relevant I followed them.
 
 ## Design 
 While doing this project I thought a lot about the web design profession and had a lot of admiration for their work. I did my best to code a website to look nice but I am sure it could have been improved by a web designer. 
